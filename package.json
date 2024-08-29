@@ -1,0 +1,21 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "This is a project with Express JS Node Js and TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brownnette Pedroza",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "github:types/express",
+    "tslint": "^6.1.3",
+    "types": "^0.1.1",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
